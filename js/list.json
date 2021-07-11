@@ -1,0 +1,24 @@
+ [{
+         "attack": 1,
+         "name": "Sexual harassment",
+         "color": "rgb(226, 71, 71)"
+     },
+
+     {
+         "attack": 2,
+         "name": "Rape",
+         "color": "rgb(255, 0, 170)"
+     },
+
+     {
+         "attack": 3,
+         "name": "Bulling",
+         "color": "rgb(130, 196, 240)"
+     },
+
+     {
+         "attack": 4,
+         "name": "Other",
+         "color": "rgb(130, 240, 136)"
+     }
+ ]

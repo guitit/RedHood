@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div {
+    display: block;
+}
+
+body {
+    background-color: white;
+}
+
+.logo {
+    width: 400px;
+}
+
+.h3 header,
+#h2 header,
+.h5 header {
+    width: 100%;
+    height: 132px;
+    background: #ebebeb;
+    display: flex;
+}
+
+.h5 #map {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+}
+
+#logo {
+    width: 197px;
+}
+
+#h1 header section,
+.h5 header section {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#h1 header,
+.h5 header {
+    display: flex;
+    background: #ebebeb;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#h1 header nav,
+.h5 header nav {
+    height: 100%;
+    background: #ebebeb;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none
+}
+
+#h1 header .nav-list,
+.h5 header .nav-list {
+    border-color: #dddddd;
+    display: flex;
+    border-top: medium;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+}
+
+#h1 .nav-list li a,
+.h5 .nav-list li a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: #000000;
+    font-family: "ariel";
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.h5 .edit {
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-width: 0px;
+    padding: 5px;
+}
+
+#h1 .nav-list li,
+.h5 .nav-list li,
+div input,
+.h5 input {
+    text-align: center;
+    display: flex;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background: #f7f6f6;
+}
+
+#h1 .search,
+.h5 .search {
+    background-color: #ffffff;
+    color: black;
+    font-family: "ariel";
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}
+
+.menuA,
+.menuB,
+.menuC,
+.menuD,
+.menuE,
+.menuF {
+    display: none;
+}
+
+#h1 main section,
+#h1 main section a,
+#h1 footer,
+.h5 footer {
+    margin: 0 auto;
+}
+
+#h1 .chat,
+.h5 .chat {
+    width: 100px;
+    height: 41px;
+    background: #9d261d;
+    color: #ffffff;
+    font-family: "ariel";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#h1 .chat img,
+.h5 .chat img {
+    height: 30px;
+    width: 40px;
+}
+
+#h1 .login,
+.h5 .login {
+    background: #9d261d;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#h1 .footer-right,
+.h5 .footer-right {
+    justify-content: flex-end;
+    text-align: end;
+    align-items: flex-end;
+}
+
+#h1 .footer,
+.h5 footer {
+    width: 100%;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(/images/menu.png);
+}
+
+.h5 .wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.h5 .title-h5 {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 50px;
+    color: #000000;
+    font-family: "ariel";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.h5 .creating {
+    width: 100%;
+    margin: 0 auto;
+    color: #000000;
+    font-family: "ariel";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 50px;
+}
+
+.h5 .box {
+    width: 100%;
+    height: 361px;
+    padding: 8px 8px 8px 8px;
+    background: #f7f6f6;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+}
+
+.h5 .boxs {
+    width: 800px;
+    height: 361px;
+    padding: 8px 8px 8px 8px;
+    background: #f7f6f6;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+}
+
+.h5 .boxs section {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 180px;
+}
+
+.h5 .login {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 140px;
+}
+
+.h5 .box section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.h5 .headline {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.h5 .user {
+    width: 415px;
+    height: 60px;
+    padding: 4px 8px 4px 8px;
+    background: #ffffff;
+    color: #c0c0c0;
+    border-color: #ebebeb;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "ariel";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.h5 .boxs button {
+    margin-top: 60px;
+    width: 180px;
+    height: 54px;
+    padding: 0px 10px 0px 10px;
+    color: #ffffff;
+    font-family: "ariel";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.h5 .boxs section a {
+    margin-top: 30px;
+}
+
+.h5 .box a,
+.h5 .boxs button {
+    display: block;
+    margin-top: 60px;
+    width: 200px;
+    height: 54px;
+    padding: 12px;
+    background: #9d261d;
+    color: #ffffff;
+    font-family: "ariel";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+
+.h5 .headobj {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h5 .headobj section {
+    width: 50%;
+}
+
+.h5 div h5 {
+    margin: 20px;
+}
+
+.h5 .desc {
+    background-color: #fbf9f9;
+    padding: 10px;
+}
+
+.h5 .listen {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 20px;
+}
+
+.h5 .listen button {
+    border-width: 0px;
+    width: 200px;
+}
+
+.h5 .listen a {
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.h5 .headobj div span {
+    display: block;
+    width: 80%;
+}
+
+.h5 .loc {
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.h5 .loca {
+    text-align: center;
+    display: block;
+}
+
+.h5 .status {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px;
+}
+
+.h3 .form :nth-child(9) {
+    margin-top: 20px;
+}
+
+.h5 .main-obj {
+    background-color: #f7f6f6;
+}
+
+.h5 .status span {
+    display: block;
+}
+
+@media screen and (max-width: 750px) {
+    .h5 header .nav-list li:nth-child(1),
+    .h5 header .nav-list li:nth-child(2),
+    .h5 header .nav-list li:nth-child(3),
+    .h5 header .nav-list li:nth-child(4) {
+        display: none;
+    }
+}
